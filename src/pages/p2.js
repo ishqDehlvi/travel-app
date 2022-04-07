@@ -9,7 +9,7 @@ const Page2 = () => {
  
   return (
     <div className="bg-slate-100 h-full overflow-hidden" style={{ backgroundColor: 'rgb(241 245 249)' }}>
-      <div className='search h-80 w-full bg-black'>
+      <div className='search h-80 w-full' style={{backgroundImage: 'linear-gradient(to right, #E61B1E, #4E47E5)'>
         <div className="grid">
           <span><input className="placeholder:italic mt-40 h-10 bg-white w-1/2 border rounded-l py-2 pl-9 pr-3 shadow-sm outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search" />
             <button className="bg-white h-10 w-24 rounded-r">Search</button></span>
@@ -37,7 +37,7 @@ const Page2 = () => {
 
         </div>
         <div className="rght float-right w-full md:w-2/5">
-          <Card style={{ height: '450px', backgroundColor: 'black' }}>
+          <Card style={{ height: '450px', backgroundImage: 'linear-gradient(#E61B1E, #4E47E5)' }}>
             <Card.Body>
               <Card.Title className="text-left text-2xl text-white">Let Us Call You</Card.Title>
               <br />
