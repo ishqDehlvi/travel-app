@@ -22,8 +22,8 @@ const Cardpage = () => {
             {isPending && <div>Loading...</div>}
             {jobs && jobs.data.map(job => <Card key={job.id} style={{ marginBottom: '4px' }}>
               <Card.Body>
-              { jobs && console.log(job.attributes.image.data.attributes.formats.medium.url) }
-                    <img src={`http://localhost:1337${job.attributes.image.data.attributes.formats.medium.url}`} alt="img" />
+              { jobs && console.log(job.attributes.image.data.attributes.formats.thumbnail.url) }
+                    <img src={`http://localhost:1337${job.attributes.image.data.attributes.formats.thumbnail.url}`} alt="img" />
                 
                 <Card.Title>{job.attributes.jobTitle}</Card.Title>
                 <Card.Text>

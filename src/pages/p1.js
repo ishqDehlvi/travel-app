@@ -28,7 +28,7 @@ const Page = () => {
           <br/>
           <div className="inline-flex w-full">
 
-         <img src={`http://localhost:1337${job.data.attributes.image.data.attributes.formats.medium.url}`} className='h-24 w-24 ml-0 md:ml-12'/> 
+         <img src={`http://localhost:1337${job.data.attributes.image.data.attributes.formats.thumbnail.url}`} className='h-24 w-24 ml-0 md:ml-12'/> 
           
           <div className="txt">
           {job.data.attributes.Tags.map(tag =><span key={tag.id}>
