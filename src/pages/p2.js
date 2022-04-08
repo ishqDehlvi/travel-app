@@ -26,6 +26,7 @@ const Cardpage = () => {
                     <img src={`http://localhost:1337${job.attributes.image.data.attributes.formats.thumbnail.url}`} alt="img" />
                 
                 <Card.Title>{job.attributes.jobTitle}</Card.Title>
+                <button class="text-black py-2 px-4 rounded" style={{backgroundImage: 'linear-gradient(#E61B1E, #4E47E5)'}}>Apply Now</button>
                 <Card.Text>
                   {job.attributes.jobDescription}
                 </Card.Text>
