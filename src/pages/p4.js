@@ -30,45 +30,45 @@ const Page = () => {
           <br/>
           <br/>
           <div class='float-left'>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
           <p class='text-black text-left align-top'>Experience</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
-          <p class='text-black text-left align-top'>Experience</p>
+          <p class='text-black text-left align-top'>Posted</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
-          <p class='text-black text-left align-top'>Experience</p>
+          <p class='text-black text-left align-top'>No. of Vacancy</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
-          <p class='text-black text-left align-top'>Experience</p>
+          <p class='text-black text-left align-top'>Job Type</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
-          <p class='text-black text-left align-top'>Experience</p>
+          <p class='text-black text-left align-top'>Company</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
-          <div class="inline-flex w-1/3">
-          <img src={icon} class='h-16 w-16'/>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
           <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
-          <p class='text-black text-left align-top'>Experience</p>
+          <p class='text-black text-left align-top'>Location</p>
           <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
           </div>
           </div>
@@ -86,20 +86,166 @@ const Page = () => {
           </Card.Text>
         </Card.Body>
       </Card>
+
+
+      <Card style={{ marginBottom:'5px'}}>
+        <Card.Body>
+          <div class='float-left'>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Qualifcation</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Age Limit</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Salary Range</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Country</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Gender</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Hours of work</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          
+
       </div>
-      <div class="float-right w-full md:w-1/4" style={{borderRadius:'10px'}}>
-      <Card class=' sticky top-0' style={{height:'380px', marginBottom:'5px', borderRadius:'40px', backgroundImage: 'linear-gradient(#E61B1E, #4E47E5)'}}>
+        </Card.Body>
+      </Card>
+
+
+      <Card style={{ height: '200px', marginBottom:'5px'}}>
+        <Card.Body>
+          <Card.Title class='text-left text-3xl'>Required Documents</Card.Title>
+          <br/>
+          <Card.Text>
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card style={{ marginBottom:'5px'}}>
+        <Card.Body>
+          <div class='float-left'>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Key Skills</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Industry</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Nationality</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Position</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Relocation</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          <div class="inline-flex sm:w-1/3 justify-center sm:justify-start w-full">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Contract</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+          
+
+      </div>
+        </Card.Body>
+      </Card>
+
+
+
+      <div class='mt-4 w-full sm:px-8 px-12 md:px-4 overflow-hidden' style={{margin:'0 auto'}}>
+      <Card style={{float:'left', height:'200px',width:'200px',marginBottom:'10px',marginLeft:'5px',marginRight:'5px', justifyContent:'center'}}>
+        <Card.Body class='p-2'>
+          <div class="inline-flex float-left">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Timings</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+        </Card.Body>
+        </Card>
+        <Card style={{float:'left', height:'200px',width:'200px',marginBottom:'10px',marginLeft:'5px',marginRight:'5px', justifyContent:'center'}}>
+        <Card.Body class='p-2'>
+          <div class="inline-flex float-left">
+ 
+          <div class="txt" style={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}>
+          <p class='text-black text-left align-top'>Located Remotely</p>
+          <p class='text-slate-500 text-left align-bottom '>2-3 Years</p>
+          </div>
+          </div>
+        </Card.Body>
+        </Card>
+      </div>
+      </div>
+
+      <div class="float-right w-full md:w-1/4 text-sm">
+      <Card class=' sticky top-0' style={{ marginBottom:'5px', borderRadius:'15px', backgroundImage: 'linear-gradient(50deg, #E61B1E, #4E47E5)'}}>
   <Card.Body>
     <Card.Title class="text-left text-2xl text-white">Let Us Call You</Card.Title>
-    <br/>
-    <p class="text-left text-white label-input100">Name</p>
-  <input class="input100 mb-0 h-8 w-full" type="text" name="name" placeholder="Name"/>
+    
+    <p class="text-left text-white label-input100 mb-0 mt-2">Name</p>
+  <input class="input100 mb-0 h-8 rounded w-full margin10" style={{ paddingLeft:'5px'}}  type="text" name="name" placeholder="Name"/>
   <br/>
-  <p class="text-left text-white label-input100">Email</p>
-  <input class="input100 mb-0 h-8 w-full" type="text" name="email" placeholder="Email"/>
+  <p class="text-left text-white label-input100 mb-0 mt-2">Your Mobile</p>
+  <input class="input100 rounded mb-0 h-8 w-full" style={{ paddingLeft:'5px'}} type="text" name="Mobile" placeholder="Mobile"/>
   <br/>
-  <p class="text-left text-white label-input100">Message</p>
-  <input class="input100 mb-0 h-8 w-full" type="text" name="Message" placeholder="Message"/>
+  <p class="text-left text-white label-input100 mb-0 mt-2">Email</p>
+  <input class="rounded input100 mb-0 h-8 w-full" style={{ paddingLeft:'5px'}} type="text" name="email" placeholder="Email"/>
+  <br/>
+  <p class="text-left text-white label-input100 mb-0 mt-2">Message</p>
+  <input class="rounded input100 mb-0 h-8 w-full" style={{ paddingLeft:'5px'}} type="text" name="Message" placeholder="Message"/>
   <br/>
   <br/>
   <button class="bg-white text-black py-2 px-4 float-left rounded">
